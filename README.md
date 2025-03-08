@@ -27,19 +27,18 @@ I am constantly learning new techniques and improving my skills to create innova
 
 Here are some of my notable projects:
 
-### 1. **[Zip Archive Project](https://github.com/pollo2001/ZipArchive)** 🗂️
+### 1. **[Zip Archive Project](https://github.com/pollo2001/Zip_Archive)** 🗂️
    - **Description**: A C++ project where I designed a zip file system that allows compressing and decompressing files. It includes an optimized algorithm and handles large datasets with minimal memory usage.
-   - **Skills Used**: C++, Algorithms, Data Structures
+   - **Skills Used**: C++, Algorithms, Data Structures, Design Patterns
 
 ### 2. **[IIR Melody Generator](https://github.com/pollo2001/IIR_Melody_Generator)** 🎶
    - **Description**: A melody generator that applies an IIR filter to an array of audio signals. The project was based on a MATLAB prototype and optimized for better performance.
-   - **Skills Used**: C++, DSP, Audio Processing, Signal Filtering
+   - **Skills Used**: C, DSP, Audio Processing, Signal Filtering, MATLAB
 
 
-### 3. **[Bitcoin Miner](https://github.com/pollo2001/BitcoinMiner)** 💰
+### 3. **[Bitcoin Miner](https://github.com/pollo2001/SHA-256_TEAM_KARNA_ASADA)** 💰
    - **Description**: A simple implementation of a Bitcoin miner utilizing SHA-256 hashing. This project demonstrates my ability to optimize complex algorithms for high efficiency.
-   - **Skills Used**: C++, Cryptography, Parallel Processing
-   - 
+   - **Skills Used**: SystemVerilog, Quartus, Cryptography, Parallel Processing, Digital Design
 
 
 ---
