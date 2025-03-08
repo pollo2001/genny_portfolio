@@ -1,8 +1,9 @@
-# **Genaro Salazar Ruiz** 👨‍💻
+# **Genaro Salazar Ruiz** 👨🏽‍💻
 
-## **About Me** ✨
+## **About Me** ✨ ✨
 
-Hello, I'm **Genaro Salazar Ruiz**, a soon to be **Electrical Engineer** seeking roles in **Embedded Systems**, **Hardware Engineering**, and **Firmware development**. My passion lies in building high-performance low-level systems and hardware systems.
+**Hello!!!!**
+You have stumbled on my portfolio... Well my name is**Genaro Salazar Ruiz**, a soon to be **Electrical Engineer** graduating from the University of California, San Diego. I am currently seeking roles in **Embedded Systems**, **Hardware Engineering**, and **Firmware development**. My passion lies in building high-performance low-level systems and hardware systems.
 
 I am constantly learning new techniques and improving my skills to create innovative solutions in the tech space.
 
