@@ -28,18 +28,24 @@ I am constantly learning new techniques and improving my skills to create innova
 Here are some of my notable projects:
 
 ### 1. **[Zip Archive Project](https://github.com/pollo2001/Zip_Archive)** 🗂️
-   - **Description**: A C++ project where I designed a zip file system that allows compressing and decompressing files. It includes an optimized algorithm and handles large datasets with minimal memory usage.
-   - **Skills Used**: C++, Algorithms, Data Structures, Design Patterns
+   - **Description**: A **C++** project that implements a custom zip file system to compress and decompress files. The system employs an optimized algorithm that ensures minimal memory usage while handling large datasets efficiently. It demonstrates my ability to design file systems with a focus on performance and memory optimization.
+   - **Skills Used**: C++, Algorithms, Data Structures, Design Patterns, File Compression
 
 ### 2. **[IIR Melody Generator](https://github.com/pollo2001/IIR_Melody_Generator)** 🎶
-   - **Description**: A melody generator that applies an IIR filter to an array of audio signals. The project was based on a MATLAB prototype and optimized for better performance.
-   - **Skills Used**: C, DSP, Audio Processing, Signal Filtering, MATLAB
+   - **Description**: A **melody generator** that processes an array of audio signals by applying an **IIR filter**. The project started as a **MATLAB** prototype and was later optimized for performance using **C**. It demonstrates my understanding of Digital Signal Processing (DSP) and the ability to translate MATLAB algorithms into optimized C code for real-time audio processing.
+   - **Skills Used**: C, DSP, Audio Processing, Signal Filtering, MATLAB, Performance Optimization
 
+### 3. **[SHA-256/Bitcoin Miner](https://github.com/pollo2001/SHA-256_TEAM_KARNA_ASADA)** 💰
+   - **Description**: A **Bitcoin miner** implementation that uses **SHA-256** hashing to mine cryptocurrency. This project showcases my ability to implement and optimize complex cryptographic algorithms for high-performance execution. It involves parallel processing techniques to maximize mining efficiency, highlighting my skills in algorithm optimization and hardware-level computation.
+   - **Skills Used**: C++, Cryptography, SHA-256, Parallel Processing, Algorithm Optimization, Digital Design
 
-### 3. **[Bitcoin Miner](https://github.com/pollo2001/SHA-256_TEAM_KARNA_ASADA)** 💰
-   - **Description**: A simple implementation of a Bitcoin miner utilizing SHA-256 hashing. This project demonstrates my ability to optimize complex algorithms for high efficiency.
-   - **Skills Used**: SystemVerilog, Quartus, Cryptography, Parallel Processing, Digital Design
+### 4. **[Ray Tracing (C99)](https://github.com/pollo2001/Ray_Tracing)** 🎯
+   - **Description**: This project implements ray tracing in **C99** to simulate light interactions with objects in 3D space. It leverages linear algebra for efficient vector computations, providing a solid foundation for understanding graphics programming. The project demonstrates how to optimize mathematical models for high-performance applications, useful in gaming and computer graphics.
+   - **Skills Used**: C99, Linear Algebra, Mathematics, Optimization, C, Graphics Programming
 
+### 5. **[Assembly Dice Roll](https://github.com/pollo2001/Dice_Roll)** 🎲
+   - **Description**: A **dice rolling simulation** built in **Assembly** using stack operations to simulate randomness. The project was implemented on a **Raspberry Pi 4B** (using **ARMv8 architecture**) and emphasizes low-level programming concepts, memory management, and stack manipulation. It highlights my ability to work with hardware and understand how the stack is used in real-world applications like randomness generation and process execution.
+   - **Skills Used**: Assembly, ARMv8, Raspberry Pi 4B, Stack Implementation, Low-Level Programming, Memory Management
 
 ---
 
@@ -53,4 +59,4 @@ Here are some of my notable projects:
 See License details in each project!
 ---
 
-Feel free to explore my repositories and reach out if you're interested in collaborating! 👾
+Feel free to explore my repositories or hire me 🤩! Please reach out if you're interested in collaborating! 👾
