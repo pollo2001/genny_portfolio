@@ -57,7 +57,7 @@ Here are some of my notable projects:
 ---
 
 ## **Licenses** 📜
-See License details in each project!
+- **See License details in each project!**
 ---
 
 Feel free to explore my repositories or hire me 🤩! Please reach out if you're interested in collaborating! 👾
