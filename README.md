@@ -48,6 +48,9 @@ Here are some of my notable projects:
    - **Description**: A **dice rolling simulation** built in **Assembly** using stack operations to simulate randomness. The project was implemented on a **Raspberry Pi 4B** (using **ARMv8 architecture**) and emphasizes low-level programming concepts, memory management, and stack manipulation. It highlights my ability to work with hardware and understand how the stack is used in real-world applications like randomness generation and process execution.
    - **Skills Used**: Assembly, ARMv8, Raspberry Pi 4B, Stack Implementation, Low-Level Programming, Memory Management
 
+### 6. **[Line-Following Robot](https://github.com/pollo2001/Line-Follower-RC)** 🤖
+- **Description**: A **line-following robot** controlled by **32-bit EFM32 MCUs** using **C/C++** and **Arduino** for firmware development. The robot implements a **real-time PID control system** with magnitude scaling and tunable sensitivity constants to dynamically adjust motor performance. Rapid prototyping was used to iteratively test and refine code, motor drivers, and battery usage for optimal performance. The robot won every competition round in speed, navigation, and circular speed tracking events, demonstrating precise control, modularity, and reliable hardware-software integration.
+- **Skills Used**: C, Arduino, EFM32 MCU, PID Control, Motor Driver Firmware, Rapid Prototyping, Sensor Integration, Multimeter Testing, Embedded Systems, Hardware-Software Integration
 ---
 
 ## **Contact Me** 📬
