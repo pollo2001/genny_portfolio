@@ -51,6 +51,16 @@ Here are some of my notable projects:
 ### 6. **[Line-Following Robot](https://github.com/pollo2001/Line-Follower-RC)** 🤖
 - **Description**: A **line-following robot** controlled by **32-bit EFM32 MCUs** using **C/C++** and **Arduino** for firmware development. The robot implements a **real-time PID control system** with magnitude scaling and tunable sensitivity constants to dynamically adjust motor performance. Rapid prototyping was used to iteratively test and refine code, motor drivers, and battery usage for optimal performance. The robot won every competition round in speed, navigation, and circular speed tracking events, demonstrating precise control, modularity, and reliable hardware-software integration.
 - **Skills Used**: C, Arduino, EFM32 MCU, PID Control, Motor Driver Firmware, Rapid Prototyping, Sensor Integration, Multimeter Testing, Embedded Systems, Hardware-Software Integration
+
+### 7. **[QPSK Signal Processing & PLL](https://github.com/pollo2001/QPSK-Digital-Communication-PLL-DSP-Pipeline)** 📡
+- **Description**: Applied **DSP techniques** on QPSK waveforms including **PLL, Kalman filtering, matched filtering,
+FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal analysis. Optimized **C/MATLAB pipelines** for low-latency execution and validated performance against ideal signals.
+- **Skills Used**: MATLAB, C, DSP, PLL, Kalman Filtering, Low-Pass/Blackman Filtering, FFT Equalization, Phase Tracking, Signal Analysis, Communication Systems
+
+### 8. **[OFDM Simulation & Channel Equalization](https://github.com/pollo2001/OFDM-Channel-Equalization-DSP)** 📶
+- **Description**: Implemented **OFDM signal generation, cyclic prefix insertion, channel modeling, and equalization** using MATLAB. Applied **FFT analysis, power spectral density evaluation, channel estimation, and frequency-domain equalization** to optimize signal integrity and minimize inter-symbol interference. Demonstrated robust performance under channel distortion and validated results with preamble-based synchronization.
+- **Skills Used**: MATLAB, C, DSP, OFDM, FFT Analysis, Cyclic Prefix, Channel Modeling, Equalization, Preamble Synchronization, Signal Processing
+
 ---
 
 ## **Contact Me** 📬
