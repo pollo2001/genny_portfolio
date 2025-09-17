@@ -57,7 +57,7 @@ Here are some of my notable projects:
 FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal analysis. Optimized **C/MATLAB pipelines** for low-latency execution and validated performance against ideal signals.
 - **Skills Used**: MATLAB, C, DSP, PLL, Kalman Filtering, Low-Pass/Blackman Filtering, FFT Equalization, Phase Tracking, Signal Analysis, Communication Systems
 
-### 8. **[OFDM Simulation & Channel Equalization](https://github.com/pollo2001/OFDM-Channel-Equalization-DSP)** 📶
+### 8. **[OFDM Simulation & Channel Equalization](https://github.com/pollo2001/OFDM-Simulation-Channel-Distortion-Equalization)** 📶
 - **Description**: Implemented **OFDM signal generation, cyclic prefix insertion, channel modeling, and equalization** using MATLAB. Applied **FFT analysis, power spectral density evaluation, channel estimation, and frequency-domain equalization** to optimize signal integrity and minimize inter-symbol interference. Demonstrated robust performance under channel distortion and validated results with preamble-based synchronization.
 - **Skills Used**: MATLAB, C, DSP, OFDM, FFT Analysis, Cyclic Prefix, Channel Modeling, Equalization, Preamble Synchronization, Signal Processing
 
