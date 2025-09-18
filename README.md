@@ -63,6 +63,10 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
 - **Description**: Implemented **OFDM signal generation, cyclic prefix insertion, channel modeling, and equalization** using MATLAB. Applied **FFT analysis, power spectral density evaluation, channel estimation, and frequency-domain equalization** to optimize signal integrity and minimize inter-symbol interference. Demonstrated robust performance under channel distortion and validated results with preamble-based synchronization.
 - **Skills Used**: MATLAB, C, DSP, OFDM, FFT Analysis, Cyclic Prefix, Channel Modeling, Equalization, Preamble Synchronization, Signal Processing
 
+### 9. **[SafeStep Visual Aid Module – ESP32-CAM](https://github.com/pollo2001/SafeStep-Visual-Aid-Impairment-Module)** 👁️‍🗨️
+- **Description**: Designed a **visual aid module for visually impaired users** using the **ESP32-CAM**, implementing **firmware for video capture, streaming, and OTA updates**. Collaborated with a team for **assembly and documentation**, showcasing integration of hardware and embedded systems to provide real-time environmental awareness.  
+- **Skills Used**: ESP32, C/C++, Firmware Development, Embedded Systems, OTA Updates, Hardware Integration, Team Collaboration, Rapid Prototyping
+
 ---
 
 ## **Contact Me** 📬
