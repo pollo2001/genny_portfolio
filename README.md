@@ -2,8 +2,10 @@
 
 ## **About Me** ✨ ✨
 
-**Hello!!!!**
-You have stumbled on my portfolio... Well my name is **Genaro Salazar Ruiz**, a soon to be **Electrical Engineer** graduating from the University of California, San Diego. I am currently seeking roles in **Embedded Systems**, **Hardware Engineering**, and **Firmware development**. My passion lies in building high-performance low-level systems and hardware systems.
+**Hello!!!!** 👋
+You’ve stumbled on my portfolio! I’m Genaro Salazar Ruiz, a 2025 Electrical Engineering graduate from the University of California, San Diego. I am currently completing the Master of Advanced Studies in Wireless & Embedded Systems program at UCSD, gaining advanced practical experience in embedded systems, firmware, and signal processing.
+
+I have 3+ years of hands-on experience through a mix of professional work and projects, building high-performance embedded systems, low-level firmware, and DSP pipelines. I thrive on solving complex problems, optimizing systems for speed and accuracy, and turning ideas into production-ready solutions.
 
 I am constantly learning new techniques and improving my skills to create innovative solutions in the tech space.
 
