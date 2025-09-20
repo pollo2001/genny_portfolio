@@ -68,6 +68,12 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
 - **Description**: Designed a **visual aid module for visually impaired users** using the **ESP32-CAM**, implementing **firmware for video capture, streaming, and OTA updates**. Collaborated with a team for **assembly and documentation**, showcasing integration of hardware and embedded systems to provide real-time environmental awareness.  
 - **Skills Used**: ESP32, C/C++, Firmware Development, Embedded Systems, OTA Updates, Hardware Integration, Team Collaboration, Rapid Prototyping
 
+### 10. **[Low-Power UART Data Logger – EFM32 (Sanitized)](https://github.com/pollo2001/Low-Power-Logger)** 🔋📡
+- **Description**: Developed a **low-power data logging module** on a 32-bit MCU (EFM32-class, sanitized) to enable **long-duration sensor data capture** in remote environments.  
+  - Implemented **ISR-driven UART logging** with **DMA packet transfers** to store 24-byte packets at **microsecond resolution**, while operating in **EM2/low-energy modes** to achieve over **90% power savings** during extended deployments.  
+  - Created **test firmware** to emulate field conditions for validation before shipboard deployment, ensuring robust performance under tight timing and energy constraints.  
+- **Skills Used**: C, Low-Power Embedded Design, UART/DMA Communication, Interrupt-Driven Firmware, Real-Time Data Logging, Power Optimization, Hardware/Software Integration
+
 ---
 
 ## **Contact Me** 📬
