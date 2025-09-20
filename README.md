@@ -4,7 +4,7 @@
 
 **Hello!!!!** 👋
 
-I’m Genaro Salazar Ruiz, a 2025 Electrical Engineering graduate from UCSD and a current MAS-WES student. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
+I’m Genaro Salazar Ruiz, a 2025 Electrical Engineering graduate from UCSD and a current Master's student in Wireless Embedded Systems @ UCSD. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
 
 I have 3+ years of hands-on experience through a mix of professional work and projects, building high-performance embedded systems, low-level firmware, and DSP pipelines. I thrive on solving complex problems, optimizing systems for speed and accuracy, and turning ideas into production-ready solutions.
 
