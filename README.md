@@ -74,6 +74,14 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
   - Created **test firmware** to emulate field conditions for validation before shipboard deployment, ensuring robust performance under tight timing and energy constraints.  
 - **Skills Used**: C, Low-Power Embedded Design, UART/DMA Communication, Interrupt-Driven Firmware, Real-Time Data Logging, Power Optimization, Hardware/Software Integration
 
+### 11. **[Digital-to-Analog Converter Simulator – Inverting Op-Amp](https://github.com/pollo2001/Digital-to-Analog-Converter-Simulator-for-Inverting-Op-Amp-Circuits)** ⚡
+- **Description**: Created a **C++ simulator for inverting op-amp DAC circuits**, calculating output voltages from n-bit digital inputs. Features **truth table generation** and **resistor-weighted summing calculations**, expandable for **different input resolutions and feedback configurations**, acting as a **real-time analog signal calculator**.
+- **Skills Used**: C++, Object-Oriented Design, Recursive Algorithms, Circuit Simulation, Embedded Systems Math
+
+### 12. **[Variant Class Implementation – C++](https://github.com/pollo2001/Variant-Type)** 🛠️
+- **Description**: Built a **custom `Variant` class** supporting `int`, `float`, and `string` types with **dynamic type tracking**, optional-based safe getters, **arithmetic/comparison operators**, and **streamable output**. Designed **unit tests** and performed **peer code review**, emphasizing **robust, type-safe, and extendable software design**.
+- **Skills Used**: C++, OOP, Optional Handling, Operator Overloading, Testing, Software Design, Code Review
+
 ---
 
 ## **Contact Me** 📬
