@@ -82,6 +82,16 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
 - **Description**: Built a **custom `Variant` class** supporting `int`, `float`, and `string` types with **dynamic type tracking**, optional-based safe getters, **arithmetic/comparison operators**, and **streamable output**. Designed **unit tests** and performed **peer code review**, emphasizing **robust, type-safe, and extendable software design**.
 - **Skills Used**: C++, OOP, Optional Handling, Operator Overloading, Testing, Software Design, Code Review
 
+### 13. **[BareMetalPLL – Digital Phase-Locked Loop Simulation (C)](https://github.com/pollo2001/BareMetalPLL)** ⚡
+- **Description**: Developed a **bare-metal C simulation** of an **Integer-N Digital Phase-Locked Loop (DPLL)**, designed for RF synthesizer modeling. Implemented a **Type-II PI Loop Controller** and a wideband architecture (30 MHz - 30 GHz). Enforced **deterministic execution** using **fixed-point math (Q16.16)** and strict **no dynamic memory allocation** for suitability in embedded/hardware emulation.
+- **Skills Used**: Bare-Metal C, Digital Signal Processing (DSP), Fixed-Point Arithmetic (Q16.16), Control Systems (PI Controller), Embedded Software Design, Software Architecture (Modular Design).
+
+---
+
+### 14. **[Prime Number Calculator – ARM Assembly & NEON SIMD](https://github.com/pollo2001/Prime_Number)** 🧮
+- **Description**: Created an **ARM assembly program** to efficiently calculate all prime numbers within a user-defined range. Optimized for **Cortex-A72** processors on the Raspberry Pi using **NEON SIMD** instructions for significantly faster division and remainder checking. The project emphasizes **low-level optimization** and high-performance computation in a constrained environment.
+- **Skills Used**: ARM Assembly (AArch64), SIMD Optimization (NEON), High-Performance Computing, Low-Level Programming, Algorithm Optimization (Prime Checking), Cortex-A72 Architecture.
+
 ---
 
 ## **Contact Me** 📬
