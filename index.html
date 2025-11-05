@@ -22,6 +22,14 @@
             color: #f8f9fa; /* Light text */
         }
 
+        /* Custom style to make the photo large and responsive */
+        .large-profile-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; /* Optional: adds rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
         /* Nav and Card styling for dark mode contrast */
         .dark-mode .navbar {
             background-color: #343a40 !important; /* Darker nav */
@@ -41,12 +49,13 @@
             cursor: pointer; /* Makes links look clickable */
         }
         .experience-item, .project-item {
-            /* Ensures hidden items don't take up space */
+            /* Ensures hidden items don't take up space when filtered by search */
             display: block; 
         }
     </style>
 </head>
-<body class="light-mode"> <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 shadow-sm" id="main-nav">
+<body class="light-mode">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 shadow-sm" id="main-nav">
         <div class="container-fluid container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="profile.jpg" alt="Genaro Salazar Ruiz" width="40" height="40" class="rounded-circle me-2 border border-2 border-primary">
@@ -90,19 +99,28 @@
         <div class="tab-content">
 
             <div class="tab-pane fade show active" id="about-section">
-                <h1 class="mb-4">Genaro Salazar Ruiz <span class="text-primary">🛜</span></h1>
                 
-                <h2 class="text-secondary">Systems-Level Embedded & RF Engineer</h2>
-                <p class="lead">
-                    A highly driven Electrical Engineer and Master’s candidate in **Wireless Embedded Systems** (UCSD, June 2027), bridging deep academic knowledge in **RF/DSP** with **3+ years of experience** building high-performance, low-level, and low-power systems.
-                </p>
-                <p>
-                    My expertise is concentrated in **optimizing embedded systems for low-power consumption (90%+ savings achieved)**, implementing bare-metal **DSP/Control algorithms (Fixed-Point PLL)**, and developing professional **test automation frameworks (Python/SCPI)** for hardware validation. I am actively seeking roles in **Embedded Systems, (Embedded)RF Engineering, and Low-Power Design**—positions where the bridge between hardware, firmware, and software is critical for deterministic performance.
-                </p>
-                <p>
-                    <a href="https://github.com/pollo2001/genny_portfolio" class="btn btn-outline-dark me-2">Full Portfolio 💾</a>
-                    <a href="https://www.linkedin.com/in/genaro-salazar2001/" class="btn btn-primary" target="_blank">LinkedIn 🔗</a>
-                </p>
+                <div class="row align-items-start mb-5">
+                    
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+                        <img src="profile.jpg" alt="Genaro Salazar Ruiz" class="large-profile-img border border-3 border-secondary">
+                    </div>
+
+                    <div class="col-md-8">
+                        <h1 class="mb-3">Genaro Salazar Ruiz <span class="text-primary">🛜</span></h1>
+                        <h2 class="text-secondary">Systems-Level Embedded & RF Engineer</h2>
+                        <p class="lead">
+                            A highly driven Electrical Engineer and Master’s candidate in **Wireless Embedded Systems** (UCSD, June 2027), bridging deep academic knowledge in **RF/DSP** with **3+ years of experience** building high-performance, low-level, and low-power systems.
+                        </p>
+                        <p>
+                            My expertise is concentrated in **optimizing embedded systems for low-power consumption (90%+ savings achieved)**, implementing bare-metal **DSP/Control algorithms (Fixed-Point PLL)**, and developing professional **test automation frameworks (Python/SCPI)** for hardware validation. I am actively seeking roles in **Embedded Systems, (Embedded)RF Engineering, and Low-Power Design**—positions where the bridge between hardware, firmware, and software is critical for deterministic performance.
+                        </p>
+                        <p>
+                            <a href="https://github.com/pollo2001/genny_portfolio" class="btn btn-outline-dark me-2">Full Portfolio 💾</a>
+                            <a href="https://www.linkedin.com/in/genaro-salazar2001/" class="btn btn-primary" target="_blank">LinkedIn 🔗</a>
+                        </p>
+                    </div>
+                </div>
 
                 <h3 class="mt-5">🔧 SKILLS & TECHNOLOGIES</h3>
                 <div class="table-responsive">
@@ -156,7 +174,7 @@
                             <div class="card-body">
                                 <span class="badge bg-info mb-2">Core Firmware | DSP</span>
                                 <h5 class="card-title">3. BareMetalPLL – DPLL Simulation (C)</h5>
-                                <p class="card-text">Developed a **bare-metal C simulation** of an **Integer-N DPLL** for RF synthesizer modeling. Implemented the PI control loop using **Q16.16 fixed-point arithmetic** without dynamic memory, proving high-performance, deterministic DSP control.</p>
+                                <p class="card-text">Developed a **bare-metal C simulation** of an **Integer-N DPLL** for RF synthesizer modeling. The critical PI control loop was implemented using **Q16.16 fixed-point arithmetic** without dynamic memory, proving high-performance, deterministic DSP control.</p>
                                 <a href="https://github.com/pollo2001/BareMetalPLL" class="btn btn-sm btn-outline-primary" target="_blank">View Repository</a>
                             </div>
                         </div>
@@ -294,7 +312,6 @@
                 const searchTerm = e.target.value.toLowerCase().trim();
                 
                 // Items to search through in the Projects and Experience sections
-                // Ensure only one tab is shown during search for clarity
                 const items = document.querySelectorAll('.project-item, .experience-item');
 
                 // If the search field is empty, show all items
