@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genaro Salazar Ruiz - Embedded & RF Engineer</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Base styles for dark/light mode */
+        body {
+            transition: background-color 0.4s, color 0.4s;
+            min-height: 100vh;
+        }
+        .light-mode {
+            background-color: #f8f9fa; /* Light background */
+            color: #212529; /* Dark text */
+        }
+        .dark-mode {
+            background-color: #212529; /* Dark background */
+            color: #f8f9fa; /* Light text */
+        }
+
+        /* Nav and Card styling for dark mode contrast */
+        .dark-mode .navbar {
+            background-color: #343a40 !important; /* Darker nav */
+        }
+        .dark-mode .card {
+            background-color: #495057;
+            border: 1px solid #6c757d;
+        }
+        .dark-mode .card-text, .dark-mode .list-group-item {
+            color: #dee2e6;
+        }
+        .dark-mode .list-group-item {
+            background-color: #343a40;
+            border-color: #495057;
+        }
+        .nav-link {
+            cursor: pointer; /* Makes links look clickable */
+        }
+        .experience-item, .project-item {
+            /* Ensures hidden items don't take up space */
+            display: block; 
+        }
+    </style>
+</head>
+<body class="light-mode"> <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 shadow-sm" id="main-nav">
+        <div class="container-fluid container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="profile.jpg" alt="Genaro Salazar Ruiz" width="40" height="40" class="rounded-circle me-2 border border-2 border-primary">
+                <span class="fw-bold">G. Salazar Ruiz</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#about-section">Me (About)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#projects-section">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#experience-section">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#resume-section">Resume/CV</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center ms-lg-3">
+                        <button class="btn btn-sm btn-outline-secondary" id="darkModeToggle" type="button">
+                            💡 Mode
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <div class="mb-4">
+            <input type="text" class="form-control" id="portfolioSearch" placeholder="🔍 Search projects, skills, or experience keywords..." aria-label="Search portfolio content">
+        </div>
+
+        <div class="tab-content">
+
+            <div class="tab-pane fade show active" id="about-section">
+                <h1 class="mb-4">Genaro Salazar Ruiz <span class="text-primary">🛜</span></h1>
+                
+                <h2 class="text-secondary">Systems-Level Embedded & RF Engineer</h2>
+                <p class="lead">
+                    A highly driven Electrical Engineer and Master’s candidate in **Wireless Embedded Systems** (UCSD, June 2027), bridging deep academic knowledge in **RF/DSP** with **3+ years of experience** building high-performance, low-level, and low-power systems.
+                </p>
+                <p>
+                    My expertise is concentrated in **optimizing embedded systems for low-power consumption (90%+ savings achieved)**, implementing bare-metal **DSP/Control algorithms (Fixed-Point PLL)**, and developing professional **test automation frameworks (Python/SCPI)** for hardware validation. I am actively seeking roles in **Embedded Systems, (Embedded)RF Engineering, and Low-Power Design**—positions where the bridge between hardware, firmware, and software is critical for deterministic performance.
+                </p>
+                <p>
+                    <a href="https://github.com/pollo2001/genny_portfolio" class="btn btn-outline-dark me-2">Full Portfolio 💾</a>
+                    <a href="https://www.linkedin.com/in/genaro-salazar2001/" class="btn btn-primary" target="_blank">LinkedIn 🔗</a>
+                </p>
+
+                <h3 class="mt-5">🔧 SKILLS & TECHNOLOGIES</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr><th>Category</th><th>Key Proficiencies</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>**Languages**</td><td>**C, C++, Python,** MATLAB, ArmV8 Assembly</td></tr>
+                            <tr><td>**Embedded Core**</td><td>**Low-Power Design (EMx/Sleep Modes), DMA, ISR**, Real-Time Control (PID)</td></tr>
+                            <tr><td>**RF/DSP**</td><td>**Fixed-Point Math, PLL, OFDM/QPSK**, Signal Processing</td></tr>
+                            <tr><td>**Platforms**</td><td>**EFM32, LMX2820, STM32, MSP430, ESP32**, Raspberry Pi, Arduino</td></tr>
+                            <tr><td>**Tools/Dev**</td><td>Git, Docker, VSCode, CCStudio, **Test Automation Frameworks**</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="projects-section">
+                <h2 class="mb-4">📂 High-Impact Project Showcase (Top 5)</h2>
+                <p class="text-muted fst-italic">This curated selection emphasizes performance optimization, commercial validation, and deep DSP/RF expertise.</p>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col project-item" data-keywords="C, Low-Power Embedded Design, DMA, ISR, EFM32, Real-Time Data Logging, Ocean, UCSD">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Professional | Low-Power</span>
+                                <h5 class="card-title">1. Low-Power UART Data Logger – EFM32</h5>
+                                <p class="card-text text-muted">*(UCSD Multi-Scale Ocean Dynamics Deployment)*</p>
+                                <p class="card-text">Achieved **90%+ power savings** by utilizing **DMA-driven UART logging** and managing the MCU in **EM2/low-energy modes**, ensuring microsecond-level timing accuracy for long-duration sensor capture.</p>
+                                <a href="https://github.com/pollo2001/Low-Power-Logger" class="btn btn-sm btn-outline-primary" target="_blank">View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col project-item" data-keywords="Python, Test Automation, GUI, SCPI, RF Validation, Z-Communications">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Professional | Test Automation</span>
+                                <h5 class="card-title">2. RF Synthesizer Test Automation Framework</h5>
+                                <p class="card-text text-muted">*(Z-Communications)*</p>
+                                <p class="card-text">Designed and implemented a robust **Python-based test automation framework** with a GUI to validate proprietary RF hardware using a serial/SCPI-like protocol, significantly accelerating product validation.</p>
+                                <span class="text-warning">**(Repository Link Coming Soon)**</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col project-item" data-keywords="Bare-Metal C, Fixed-Point, DSP, PLL, Control Systems, Embedded Software Architecture">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <span class="badge bg-info mb-2">Core Firmware | DSP</span>
+                                <h5 class="card-title">3. BareMetalPLL – DPLL Simulation (C)</h5>
+                                <p class="card-text">Developed a **bare-metal C simulation** of an **Integer-N DPLL** for RF synthesizer modeling. Implemented the PI control loop using **Q16.16 fixed-point arithmetic** without dynamic memory, proving high-performance, deterministic DSP control.</p>
+                                <a href="https://github.com/pollo2001/BareMetalPLL" class="btn btn-sm btn-outline-primary" target="_blank">View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col project-item" data-keywords="ESP32, C++, Firmware, Embedded Systems, OTA Updates, Hardware, IoT">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <span class="badge bg-info mb-2">Core Firmware | Embedded IoT</span>
+                                <h5 class="card-title">4. SafeStep Visual Aid Module – ESP32-CAM</h5>
+                                <p class="card-text">Engineered a low-cost visual aid module using the **ESP32-CAM**. Developed firmware for video streaming, wireless connectivity, and incorporated product lifecycle features like **Over-The-Air (OTA) updates** for reliability.</p>
+                                <a href="https://github.com/pollo2001/SafeStep-Visual-Aid-Impairment-Module" class="btn btn-sm btn-outline-primary" target="_blank">View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col project-item" data-keywords="C, PID Control, Real-Time Systems, EFM32 MCU, Sensor Integration, Control Theory, Robot, Competition">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <span class="badge bg-info mb-2">Core Firmware | Control Systems</span>
+                                <h5 class="card-title">5. Line-Following Robot (Real-Time PID Control)</h5>
+                                <p class="card-text">Designed and implemented a **real-time PID control system** on an **EFM32 MCU** for precise motor speed and navigation control, leading to success in competitive events and validating control firmware under dynamic constraints.</p>
+                                <a href="https://github.com/pollo2001/Line-Follower-RC" class="btn btn-sm btn-outline-primary" target="_blank">View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="mt-5 mb-3">All Other Projects (A-Z)</h3>
+                <div class="list-group">
+                    
+                    <a href="https://github.com/pollo2001/Assembly_Dice_Roll" class="list-group-item list-group-item-action project-item" data-keywords="Assembly, ARMv8, Raspberry Pi 4B, Stack Implementation, Low-Level Programming" target="_blank">
+                        **Assembly Dice Roll** 🎲: Dice rolling simulation in **ARMv8 Assembly** on a Raspberry Pi 4B, emphasizing low-level programming and stack operations.
+                    </a>
+                    <a href="https://github.com/pollo2001/Digital-to-Analog-Converter-Simulator-for-Inverting-Op-Amp-Circuits" class="list-group-item list-group-item-action project-item" data-keywords="C++, Op-Amp, DAC, Circuit Simulation, Embedded Math, OOP" target="_blank">
+                        **Digital-to-Analog Converter Simulator** ⚡: C++ simulator for inverting op-amp DAC circuits, calculating output voltages from n-bit digital inputs.
+                    </a>
+                    <a href="https://github.com/pollo2001/IIR_Melody_Generator" class="list-group-item list-group-item-action project-item" data-keywords="C, DSP, Audio Processing, Signal Filtering, MATLAB, Performance Optimization" target="_blank">
+                        **IIR Melody Generator** 🎶: Melody generator applying an **IIR filter**, optimized from a **MATLAB** prototype to high-performance **C** code for real-time audio.
+                    </a>
+                    <a href="https://github.com/pollo2001/OFDM-Simulation-Channel-Distortion-Equalization" class="list-group-item list-group-item-action project-item" data-keywords="MATLAB, C, DSP, OFDM, FFT, Channel Modeling, Equalization, Signal Processing" target="_blank">
+                        **OFDM Simulation & Channel Equalization** 📶: Implemented **OFDM signal generation, channel modeling, and equalization** using MATLAB for robust performance under channel distortion.
+                    </a>
+                    <a href="https://github.com/pollo2001/Prime_Number" class="list-group-item list-group-item-action project-item" data-keywords="ARM Assembly (AArch64), SIMD Optimization (NEON), High-Performance Computing, Cortex-A72" target="_blank">
+                        **Prime Number Calculator** 🧮: ARM assembly program optimized with **NEON SIMD** instructions for significantly faster prime number calculation on a Cortex-A72 processor.
+                    </a>
+                    <a href="https://github.com/pollo2001/QPSK-Digital-Communication-PLL-DSP-Pipeline" class="list-group-item list-group-item-action project-item" data-keywords="MATLAB, C, DSP, PLL, Kalman filtering, matched filtering, FFT, Communication Systems" target="_blank">
+                        **QPSK Signal Processing & PLL** 📡: Applied **DSP techniques** on QPSK waveforms including **PLL, Kalman filtering, matched filtering,** and signal analysis, optimized in C/MATLAB.
+                    </a>
+                    <a href="https://github.com/pollo2001/Ray_Tracing" class="list-group-item list-group-item-action project-item" data-keywords="C99, Linear Algebra, Mathematics, Optimization, Graphics Programming" target="_blank">
+                        **Ray Tracing (C99)** 🎯: Implements ray tracing in **C99** to simulate light interactions with objects in 3D space, leveraging linear algebra for vector computations.
+                    </a>
+                    <a href="https://github.com/pollo2001/SHA-256_TEAM_KARNA_ASADA" class="list-group-item list-group-item-action project-item" data-keywords="C++, Cryptography, SHA-256, Parallel Processing, Algorithm Optimization, Bitcoin" target="_blank">
+                        **SHA-256/Bitcoin Miner** 💰: Bitcoin miner implementation using **SHA-256** hashing, showcasing optimization and parallel processing techniques for high-performance execution.
+                    </a>
+                    <a href="https://github.com/pollo2001/Variant-Type" class="list-group-item list-group-item-action project-item" data-keywords="C++, OOP, Optional Handling, Operator Overloading, Testing, Software Design" target="_blank">
+                        **Variant Class Implementation – C++** 🛠️: Custom `Variant` class supporting `int`, `float`, and `string` with dynamic type tracking and operator overloading, emphasizing robust software design.
+                    </a>
+                    <a href="https://github.com/pollo2001/Zip_Archive" class="list-group-item list-group-item-action project-item" data-keywords="C++, Algorithms, Data Structures, Design Patterns, File Compression, Memory Optimization" target="_blank">
+                        **Zip Archive Project** 🗂️: C++ project implementing a custom zip file system with an optimized algorithm for minimal memory usage and efficient compression/decompression.
+                    </a>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="experience-section">
+                <h2 class="mb-4">Work & Academic Experience</h2>
+                <p class="lead">My professional and academic experience is detailed on my LinkedIn profile, with key projects highlighted in the tab above.</p>
+                
+                <div class="list-group">
+                    <a href="https://www.mod.ucsd.edu/" class="list-group-item list-group-item-action experience-item" data-keywords="UCSD, Ocean, Data Logger, Professional" target="_blank">
+                        **Master's Research / Professional Work** (UCSD Multi-Scale Ocean Dynamics)
+                    </a>
+                    <a href="https://www.zcomm.com/" class="list-group-item list-group-item-action experience-item" data-keywords="Z-Communications, RF, Test Automation, Professional" target="_blank">
+                        **RF Test Automation Framework** (Z-Communications)
+                    </a>
+                    <a href="https://www.linkedin.com/in/genaro-salazar2001/" class="list-group-item list-group-item-action experience-item" data-keywords="UCSD, Electrical Engineering, Master's" target="_blank">
+                        **UC San Diego** (B.S. Electrical Engineering & M.S. Wireless Embedded Systems)
+                    </a>
+                </div>
+
+                <h3 class="mt-4">See Full Details:</h3>
+                <a href="https://www.linkedin.com/in/genaro-salazar2001/" class="btn btn-primary" target="_blank">View Full LinkedIn Profile 🔗</a>
+            </div>
+
+            <div class="tab-pane fade" id="resume-section">
+                <h2 class="mb-4">Download My Documents</h2>
+                <p class="lead">For a complete look at my qualifications, you can download my professional documents below.</p>
+                
+                <div class="d-flex flex-column flex-sm-row">
+                    <a href="resume.pdf" class="btn btn-success me-sm-3 mb-2 mb-sm-0" download>Download Resume (PDF)</a>
+                    <a href="cv.pdf" class="btn btn-outline-success" download>Download CV (PDF)</a>
+                </div>
+
+                <h3 class="mt-5">Contact Me</h3>
+                <p>Please reach out if you're interested in collaborating!</p>
+                <p>
+                    <a href="mailto:your_email@example.com" class="btn btn-outline-secondary">Email Me</a>
+                </p>
+                
+                <p class="mt-4 text-muted">Licenses: See License details in each project!</p>
+            </div>
+
+        </div> </div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- DARK/LIGHT MODE TOGGLE ---
+            const toggleButton = document.getElementById('darkModeToggle');
+            const body = document.body;
+
+            // Load saved preference or default to light-mode
+            const currentMode = localStorage.getItem('theme') || 'light-mode';
+            body.classList.add(currentMode);
+
+            // Update button text on load
+            toggleButton.textContent = currentMode === 'dark-mode' ? '💡 Light' : '💡 Dark';
+
+            toggleButton.addEventListener('click', () => {
+                if (body.classList.contains('light-mode')) {
+                    body.classList.replace('light-mode', 'dark-mode');
+                    localStorage.setItem('theme', 'dark-mode');
+                    toggleButton.textContent = '💡 Light';
+                } else {
+                    body.classList.replace('dark-mode', 'light-mode');
+                    localStorage.setItem('theme', 'light-mode');
+                    toggleButton.textContent = '💡 Dark';
+                }
+            });
+
+            // --- KEYWORD SEARCH FUNCTIONALITY ---
+            const searchInput = document.getElementById('portfolioSearch');
+            
+            searchInput.addEventListener('keyup', (e) => {
+                const searchTerm = e.target.value.toLowerCase().trim();
+                
+                // Items to search through in the Projects and Experience sections
+                // Ensure only one tab is shown during search for clarity
+                const items = document.querySelectorAll('.project-item, .experience-item');
+
+                // If the search field is empty, show all items
+                if (searchTerm === '') {
+                    items.forEach(item => {
+                        item.style.display = 'block'; 
+                    });
+                    return;
+                }
+
+                // Otherwise, perform the search
+                items.forEach(item => {
+                    const keywords = item.getAttribute('data-keywords').toLowerCase();
+                    
+                    // Check if the item's keywords contain the search term
+                    if (keywords.includes(searchTerm)) {
+                        item.style.display = 'block'; // Show the item
+                    } else {
+                        item.style.display = 'none'; // Hide the item
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
