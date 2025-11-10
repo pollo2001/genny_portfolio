@@ -51,9 +51,13 @@ Here are some of my notable projects:
    - **Description**: A **dice rolling simulation** built in **Assembly** using stack operations to simulate randomness. The project was implemented on a **Raspberry Pi 4B** (using **ARMv8 architecture**) and emphasizes low-level programming concepts, memory management, and stack manipulation. It highlights my ability to work with hardware and understand how the stack is used in real-world applications like randomness generation and process execution.
    - **Skills Used**: Assembly, ARMv8, Raspberry Pi 4B, Stack Implementation, Low-Level Programming, Memory Management
 
-### 6. **[Line-Following Robot](https://github.com/pollo2001/Line-Follower-RC)** 🤖
-- **Description**: A **line-following robot** controlled by **32-bit EFM32 MCUs** using **C/C++** and **Arduino** for firmware development. The robot implements a **real-time PID control system** with magnitude scaling and tunable sensitivity constants to dynamically adjust motor performance. Rapid prototyping was used to iteratively test and refine code, motor drivers, and battery usage for optimal performance. The robot won every competition round in speed, navigation, and circular speed tracking events, demonstrating precise control, modularity, and reliable hardware-software integration.
-- **Skills Used**: C, Arduino, EFM32 MCU, PID Control, Motor Driver Firmware, Rapid Prototyping, Sensor Integration, Multimeter Testing, Embedded Systems, Hardware-Software Integration
+### 6. **[Line-Following Robot – Real-Time PID Control (Arduino Mega 2560)](https://github.com/pollo2001/Line-Follower-RC)** 🤖  
+- **Description**: Designed and implemented a **real-time PID control system** on an **Arduino Mega 2560** for precise motor synchronization and fast response during competitive line-following events.  
+  - Engineered a **weighted photoresistor feedback algorithm** for continuous line detection and smooth course correction.  
+  - Added **real-time potentiometer tuning** to dynamically adjust PID constants mid-operation for optimal performance.  
+  - Achieved **first-place finishes** across multiple timed and precision navigation challenges, demonstrating robust closed-loop control.  
+  - Developed modular firmware with **calibration, sensor management, and diagnostic modes** for repeatable tuning and validation.  
+- **Skills Used**: C/C++ (Arduino), PID Control, Embedded Systems, Sensor Fusion, Real-Time Calibration, Rapid Prototyping  
 
 ### 7. **[QPSK Signal Processing & PLL](https://github.com/pollo2001/QPSK-Digital-Communication-PLL-DSP-Pipeline)** 📡
 - **Description**: Applied **DSP techniques** on QPSK waveforms including **PLL, Kalman filtering, matched filtering,
@@ -68,11 +72,13 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
 - **Description**: Designed a **visual aid module for visually impaired users** using the **ESP32-CAM**, implementing **firmware for video capture, streaming, and OTA updates**. Collaborated with a team for **assembly and documentation**, showcasing integration of hardware and embedded systems to provide real-time environmental awareness.  
 - **Skills Used**: ESP32, C/C++, Firmware Development, Embedded Systems, OTA Updates, Hardware Integration, Team Collaboration, Rapid Prototyping
 
-### 10. **[Low-Power UART Data Logger – EFM32 (Sanitized)](https://github.com/pollo2001/Low-Power-Logger)** 🔋📡
-- **Description**: Developed a **low-power data logging module** on a 32-bit MCU (EFM32-class, sanitized) to enable **long-duration sensor data capture** in remote environments.  
-  - Implemented **ISR-driven UART logging** with **DMA packet transfers** to store 24-byte packets at **microsecond resolution**, while operating in **EM2/low-energy modes** to achieve over **90% power savings** during extended deployments.  
-  - Created **test firmware** to emulate field conditions for validation before shipboard deployment, ensuring robust performance under tight timing and energy constraints.  
-- **Skills Used**: C, Low-Power Embedded Design, UART/DMA Communication, Interrupt-Driven Firmware, Real-Time Data Logging, Power Optimization, Hardware/Software Integration
+### 10. **[Low-Power UART Data Logger – EFM32 (Multiscale Ocean Dynamics, UCSD)](https://github.com/pollo2001/Low-Power-Logger)** 🔋📡  
+- **Description**: Developed a **low-power data logging module** on a 32-bit **EFM32 MCU**, supporting **long-duration, low-energy sensor deployments** for UCSD’s **Multiscale Ocean Dynamics Lab**.  
+  - Implemented a **DMA-driven UART framework** with **ISR-based packet handling** to capture 24-byte data frames at **microsecond resolution**.  
+  - Operated the system in **Energy Mode 2 (EM2)**, achieving **>90% power savings** while maintaining deterministic timing.  
+  - Designed for **field-validated reliability**, including test firmware to emulate shipboard and autonomous platform conditions.  
+  - **NDA-compliant sanitized release** — all proprietary identifiers and register details removed while preserving core design logic.  
+- **Skills Used**: C, EFM32 Firmware, DMA, ISR, Low-Power Embedded Design, Real-Time Logging, Hardware/Software Integration  
 
 ### 11. **[Digital-to-Analog Converter Simulator – Inverting Op-Amp](https://github.com/pollo2001/Digital-to-Analog-Converter-Simulator-for-Inverting-Op-Amp-Circuits)** ⚡
 - **Description**: Created a **C++ simulator for inverting op-amp DAC circuits**, calculating output voltages from n-bit digital inputs. Features **truth table generation** and **resistor-weighted summing calculations**, expandable for **different input resolutions and feedback configurations**, acting as a **real-time analog signal calculator**.
@@ -82,13 +88,26 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
 - **Description**: Built a **custom `Variant` class** supporting `int`, `float`, and `string` types with **dynamic type tracking**, optional-based safe getters, **arithmetic/comparison operators**, and **streamable output**. Designed **unit tests** and performed **peer code review**, emphasizing **robust, type-safe, and extendable software design**.
 - **Skills Used**: C++, OOP, Optional Handling, Operator Overloading, Testing, Software Design, Code Review
 
-### 13. **[BareMetalPLL – Digital Phase-Locked Loop Simulation (C)](https://github.com/pollo2001/BareMetalPLL)** ⚡
-- **Description**: Developed a **bare-metal C simulation** of an **Integer-N Digital Phase-Locked Loop (DPLL)**, designed for RF synthesizer modeling. Implemented a **Type-II PI Loop Controller** and a wideband architecture (30 MHz - 30 GHz). Enforced **deterministic execution** using **fixed-point math (Q16.16)** and strict **no dynamic memory allocation** for suitability in embedded/hardware emulation.
-- **Skills Used**: Bare-Metal C, Digital Signal Processing (DSP), Fixed-Point Arithmetic (Q16.16), Control Systems (PI Controller), Embedded Software Design, Software Architecture (Modular Design).
+### 13. **[BareMetalPLL – Digital Phase-Locked Loop Simulation (C)](https://github.com/pollo2001/BareMetalPLL)** ⚙️  
+- **Description**: Developed a **bare-metal C simulation** of an **Integer-N Digital PLL** to model synthesizer behavior and control loop dynamics for embedded applications.  
+  - Implemented **Q16.16 fixed-point arithmetic** for deterministic and hardware-accurate execution.  
+  - Designed a **Type-II Integer-N architecture** with modular **NCO, divider, and PI loop components** for flexible configuration.  
+  - Enforced **no dynamic memory usage**, ensuring predictability and real-time performance for embedded platforms.  
+  - Structured for **future Fractional-N and Delta-Sigma Modulator extensions** to support fine frequency resolution and phase-noise analysis.  
+- **Skills Used**: C (C17), Fixed-Point DSP, PLL Design, Control Systems, Embedded Simulation, Software Architecture  
+
 
 ### 14. **[Prime Number Calculator – ARM Assembly & NEON SIMD](https://github.com/pollo2001/Prime_Number)** 🧮
 - **Description**: Created an **ARM assembly program** to efficiently calculate all prime numbers within a user-defined range. Optimized for **Cortex-A72** processors on the Raspberry Pi using **NEON SIMD** instructions for significantly faster division and remainder checking. The project emphasizes **low-level optimization** and high-performance computation in a constrained environment.
 - **Skills Used**: ARM Assembly (AArch64), SIMD Optimization (NEON), High-Performance Computing, Low-Level Programming, Algorithm Optimization (Prime Checking), Cortex-A72 Architecture.
+
+### 15. **[Smart_PLL_Interface – RF Synthesizer GUI & Test Automation Framework (Z-Communications, Inc.)](https://github.com/pollo2001/Smart_PLL_Interface)** 📡  
+- **Description**: Built a **Python-based test automation and control GUI** for **Z-Communications’ Smart SSG PLL synthesizer line**, enabling real-time device communication and validation.  
+  - Designed a **multi-threaded, SCPI-style control layer** for automated sweep control, frequency analysis, and lock-time verification.  
+  - Added **auto-connect logic, safe disconnect, and asynchronous polling** to enhance reliability during extended testing.  
+  - Reduced manual validation time by **over 60%**, improving production throughput and repeatability.  
+  - **NDA-compliant sanitized release**, preserving structure and logic while removing all proprietary firmware and register mappings.  
+- **Skills Used**: Python, GUI Development, Serial Communication, RF Test Automation, SCPI Protocol, Threading, Hardware Integration  
 
 ---
 
