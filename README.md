@@ -109,6 +109,13 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
   - **NDA-compliant sanitized release**, preserving structure and logic while removing all proprietary firmware and register mappings.  
 - **Skills Used**: Python, GUI Development, Serial Communication, RF Test Automation, SCPI Protocol, Threading, Hardware Integration  
 
+### 16. **[NDA-Safe Generic Bit-Bang SPI – One-Time Device Initialization](https://github.com/pollo2001/NDA-Generic-BitBang-OneTime)** ⚡
+- **Description**: Provides a **compact, NDA-safe SPI bit-bang template** for **one-time initialization of 24–32 bit devices** on microcontrollers. Designed for **three-wire setups** (DATA, CLK, LE), this firmware ensures reliable device configuration without using hardware SPI.  
+  - Configurable **bit-width** up to 64 bits; larger writes may be slower or limited by the slave device buffer.  
+  - MCU enters **deep sleep (LPM4)** after initialization to minimize power draw and avoid interference with sensitive signals.  
+  - Fully **redacted and NDA-compliant**, intended for **learning, demonstration, or generic embedded integration** without exposing proprietary registers or board schematics.  
+- **Skills Used**: Embedded C, Bit-Bang SPI, Microcontroller Firmware, Low-Power Design, Configurable Peripheral Initialization, NDA-Safe Development
+
 ---
 
 ## **Contact Me** 📬
