@@ -53,11 +53,12 @@ Here are some of my notable projects:
 
 ### 6. **[Line-Following Robot – Real-Time PID Control (Arduino Mega 2560)](https://github.com/pollo2001/Line-Follower-RC)** 🤖  
 - **Description**: Designed and implemented a **real-time PID control system** on an **Arduino Mega 2560** for precise motor synchronization and fast response during competitive line-following events.  
-  - Engineered a **weighted photoresistor feedback algorithm** for continuous line detection and smooth course correction.  
-  - Added **real-time potentiometer tuning** to dynamically adjust PID constants mid-operation for optimal performance.  
-  - Achieved **first-place finishes** across multiple timed and precision navigation challenges, demonstrating robust closed-loop control.  
-  - Developed modular firmware with **calibration, sensor management, and diagnostic modes** for repeatable tuning and validation.  
-- **Skills Used**: C/C++ (Arduino), PID Control, Embedded Systems, Sensor Fusion, Real-Time Calibration, Rapid Prototyping  
+- Engineered weighted photoresistor feedback algorithm with real-time potentiometer tuning for on-the-fly PID gain optimization.
+- Implemented battery-aware **adaptive control**: added threshold-based turn normalization (if |turn| > 1 → scale by constant) to prevent motor saturation under varying voltage conditions.
+- Empirically characterized hardware across battery states to derive **optimal scaling constants** (0.4× high charge, adjusted for depleted conditions).
+- Achieved **first-place performance** with modular firmware featuring calibration, diagnostic, and motor control modes. 
+- **Skills Used:** C/C++ (Arduino), PID Control, Embedded Systems, Hardware Characterization, Adaptive Nonlinear Control
+  
 
 ### 7. **[QPSK Signal Processing & PLL](https://github.com/pollo2001/QPSK-Digital-Communication-PLL-DSP-Pipeline)** 📡
 - **Description**: Applied **DSP techniques** on QPSK waveforms including **PLL, Kalman filtering, matched filtering,
