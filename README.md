@@ -117,6 +117,13 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
   - Fully **redacted and NDA-compliant**, intended for **learning, demonstration, or generic embedded integration** without exposing proprietary registers or board schematics.  
 - **Skills Used**: Embedded C, Bit-Bang SPI, Microcontroller Firmware, Low-Power Design, Configurable Peripheral Initialization, NDA-Safe Development
 
+### 17. **[NDA-Safe Automated RF TestBench – HIL Power Sweep](https://github.com/pollo2001/Automated-RF-TestBench)** 📊
+- **Description**: Developed a **Python-based Hardware-in-the-Loop (HIL) automation GUI** to synchronize embedded MCU targets (via UART) with legacy GPIB test equipment (via PyVISA) for phase-aligned RF frequency and power sweeps.  
+  - Engineered a **zero-polling crash detector** that calculates real-time derivatives of GPIB power readings to instantly halt sweeps upon hardware failure (>30dB drop), requiring zero serial I/O overhead.  
+  - Implemented **hard-coded loop pacing limits** to physically prevent UART-to-SPI buffer overflows and watchdog resets on the embedded target.  
+  - Abstracted vintage SCPI commands into a **decoupled hardware driver** with anti-spam pacing, and integrated **smart channel routing** using reverse-algebra for automatic prescaler configuration.  
+  - **NDA-compliant educational release**, with over 50% of the codebase redacted to sanitize proprietary firmware commands, timing constraints, and hardware identifiers.  
+- **Skills Used**: Python, Hardware-in-the-Loop (HIL), PyVISA (GPIB/SCPI), PySerial (UART), Test Automation, CustomTkinter, Edge-Case Handling, NDA-Safe Development
 ---
 
 ## **Contact Me** 📬
