@@ -124,6 +124,16 @@ FFT equalization, phase tracking, low-pass/Blackman filtering**, and signal anal
    - Abstracted vintage SCPI commands into a **decoupled hardware driver** with anti-spam pacing, and integrated **smart channel routing** using reverse-algebra for automatic prescaler configuration.  
    - **NDA-compliant educational release**, with over 50% of the codebase redacted to sanitize proprietary firmware commands, timing constraints, and hardware identifiers.  
 - **Skills Used**: Python, Hardware-in-the-Loop (HIL), PyVISA (GPIB/SCPI), PySerial (UART), Test Automation, CustomTkinter, Edge-Case Handling, NDA-Safe Development
+
+### 18. **[STM32 Multi-GHz Digital RF Prescaler & Division Controller](https://github.com/pollo2001/Generic-RF-Prescaler)** 📟
+- **Description**: Bare-metal **C firmware** on an **STM32C0**, providing a deterministic, low-latency control interface for multi-GHz RF prescalers and integer frequency dividers in benchtop/automated test environments.
+  - Built a **deterministic 7-bit parallel output bus** driving hardware division ratios (div 0–127) via direct GPIO register bitmask operations, eliminating serial-bus latency and jitter during divider state changes.
+  - Designed a **draft-staging state machine** that buffers quadrature encoder input into an uncommitted "draft" value, preventing destructive intermediate-frequency transients before a value is latched.
+  - Implemented a **software-level hardware abstraction layer** to remap 7-segment display traces per PCB revision, decoupling board-layout constraints from the core RF state-machine driver.
+  - Added gesture-based control (single/triple-click latch and reset, idle-timeout auto-revert, long-hold hardware reset) for reliable bench operation.
+  - **NDA-compliant sanitized proof-of-concept release** (~40% reduced footprint vs. proprietary production build).
+  - **Skills Used**: C, STM32 Firmware, GPIO Bitmask Control, State Machines, Hardware Abstraction, RF Synthesizer Control
+
 ---
 
 ## **Contact Me** 📬
