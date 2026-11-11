@@ -4,15 +4,15 @@
 
 **Hello!!!!** 👋
 
-I’m Genaro Salazar Ruiz, a 2025 Electrical Engineering graduate from UCSD and a current Master's student in Wireless Embedded Systems @ UCSD. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
+I’m Genaro Salazar Ruiz, a Wireless Hardware Engineer! I graduated in 2025 with a degree in Electrical Engineering from UCSD and am currently a Master's student in Wireless Embedded Systems @ UCSD. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
 
-I have 3+ years of hands-on experience through a mix of professional work and projects, building high-performance embedded systems, low-level firmware, and DSP pipelines. I thrive on solving complex problems, optimizing systems for speed and accuracy, and turning ideas into production-ready solutions.
+I have 3+ years of hands-on experience building high-performance embedded systems, low-level firmware, and DSP pipelines through professional work and personal projects. I thrive on solving complex problems, optimizing systems for speed and accuracy, and turning ideas into production-ready solutions.
 
-I am constantly learning new techniques and improving my skills to create innovative solutions in the tech space.
+I am constantly learning new techniques and improving my skills to build innovative solutions in tech.
 
 ### **Skills & Technologies** 🔧
 - **Languages**: C, C++, Python, MATLAB, ArmV8 Assembly
-- **Tools & Frameworks**: Git, Docker, VSCode, GitHub, CCStudio, Clion, CodeBlocks
+- **Tools & Frameworks**: Git, Docker, VSCode, GitHub, CCStudio, CLion, CodeBlocks
 - **Embedded Systems**: Raspberry Pi, Arduino, EFM32, ESP32, MSP430
 - **Other**: Machine Learning, Signal Processing, Firmware Level
 
