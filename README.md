@@ -4,7 +4,7 @@
 
 **Hello!!!!** 👋
 
-I’m Genaro Salazar Ruiz, a Wireless Hardware Engineer! I graduated in 2025 with a degree in Electrical Engineering from UCSD and am currently a Master's student in Wireless Embedded Systems @ UCSD. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
+I’m Genaro Salazar Ruiz, a Wireless Hardware Engineer @ Z-Communications! I graduated in 2025 with a degree in Electrical Engineering from UCSD and am currently a Master's student in Wireless Embedded Systems @ UCSD. I have 3+ years of experience building high-performance embedded systems, low-level firmware, and DSP pipelines, turning complex ideas into production-ready solutions.
 
 I have 3+ years of hands-on experience building high-performance embedded systems, low-level firmware, and DSP pipelines through professional work and personal projects. I thrive on solving complex problems, optimizing systems for speed and accuracy, and turning ideas into production-ready solutions.
 
